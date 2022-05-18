@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 100px 0;
+}
+.width{
+    max-width: 1500px;
+    padding: 0 10px;
+    margin: auto;
+}
+.news, .quiz, .contact{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navi{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.navi .width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navi .logo a{
+    color: #243277;
+    font-size: 75px;
+    font-weight: 600;
+}
+.navi .logo a span{
+    color: rgb(20, 220, 47);
+    transition: all 0.3s ease;
+}
+
+.navi .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navi .menu li a{
+    display: block;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navi .menu li a:hover{
+    color: blue;
+}
+
+
+/* menu btn styling */
+.menu-btn{
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.home{
+    display: flex;
+    background: url("image.jpg") no-repeat center;
+    /*background: url("image2.jpeg") no-repeat center;*/
+    height: 120vh;
+    color: #fff;
+    min-height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .width{
+  width: 100%;
+  display: flex;
+}
+.home .width .row{
+  margin-right: 0;
+}
+.home .home-content .text-1{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-1 span{
+    color: blue;
+    font-weight: 500;
+}
+.home .home-content .text-2{
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-1{
+    font-size: 75px;
+    margin: 5px 0;
+}
+.home .home-content .text-1 span{
+    color: blue;
+    font-weight: 500;
+}
+.home .home-content a{
+    display: inline-block;
+    background: blue;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color: rgb(8, 8, 8);
+    background: none;
+}
